@@ -11,3 +11,6 @@
 1 - modifiquei uma das carcteristicas ja criadas (o dado de Genêros) para ser um array de strings
 
 2-feito um relatorio utilizando console.log para imprimir todos os itens e suas caracteristicas, alterando alguns dos dados para ficar em letra maiuscula
+
+## **semana 3**
+1- os itens formados por diversar variaveis foram trasnformados em obejtos, e depois colocados em uma array vazio através do método .push()
