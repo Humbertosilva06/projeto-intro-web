@@ -13,4 +13,4 @@
 2-feito um relatorio utilizando console.log para imprimir todos os itens e suas caracteristicas, alterando alguns dos dados para ficar em letra maiuscula
 
 ## **semana 3**
-1- os itens formados por diversar variaveis foram trasnformados em obejtos, e depois colocados em uma array vazio através do método .push()
+1- os itens formados por diversas variaveis foram trasnformados em objetos, e depois colocados em uma array vazio através do método .push()
