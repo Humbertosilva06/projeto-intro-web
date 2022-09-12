@@ -51,10 +51,26 @@ const manga3 = {
 }
 
 const arrayMangas = []
+if(manga1.concluido===true){
+    arrayMangas.push(manga1)
+}else{
+    alert (`o item ${manga1.titulo} não foi adicionado`)
+}
 
-arrayMangas.push(manga1, manga2, manga3)
+if(manga2.concluido===true){
+    arrayMangas.push(manga1)
+}else{
+    alert (`o item ${manga2.titulo} não foi adicionado`)
+}
 
-console.log(arrayMangas.length)
+if(manga3.concluido===true){
+    arrayMangas.push(manga1)
+}else{
+    alert (`o item ${manga3.titulo} não foi adicionado`)
+}
+   
+    
+console.log(arrayMangas)
 
 
 let mediaVolumes = (arrayMangas[0].numeroVolumes + arrayMangas[1].numeroVolumes + arrayMangas[2].numeroVolumes) / 3// semana 1, item 3

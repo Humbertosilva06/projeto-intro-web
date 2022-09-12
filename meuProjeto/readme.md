@@ -14,3 +14,6 @@
 
 ## **semana 3**
 1- os itens formados por diversas variaveis foram trasnformados em objetos, e depois colocados em uma array vazio através do método .push()
+
+## **semana 4**
+1 - utilizando if else, foi criada uma condição para se adicionar os objetos ao array, caso a propriedade booleana do objeto seja true, ele é adicionado, caso seja false,é exibido um alert dizendo ao usuario que o objeto não foi incluido no array 
