@@ -17,3 +17,8 @@
 
 ## **semana 4**
 1 - utilizando if else, foi criada uma condição para se adicionar os objetos ao array, caso a propriedade booleana do objeto seja true, ele é adicionado, caso seja false,é exibido um alert dizendo ao usuario que o objeto não foi incluido no array 
+
+## **semana 5**
+1- nos relatorios, usando o forEach a propriedade genero dos objetos que tinha como valor um array de strings, foi concatenada numa variavel como todos os elementos em uma unica string.
+
+2- os relatorios com os dados dos objetos foi reescrito usando o forEach tbm, usando apenas um console log para todos os items
