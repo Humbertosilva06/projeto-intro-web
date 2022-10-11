@@ -85,12 +85,10 @@ let arrayObjetosEmString =""
 
 arrayMangas.forEach(element => {
     //5-1
-    arrayObjetosEmString = element.genero +", "
+    arrayObjetosEmString = element.genero.join(", ")
     //5-2
     console.log (`Titulo: ${element.titulo.toUpperCase()} \nTitulo Original: ${element.nomeOriginal.toUpperCase()} \nSinopse: ${element.sinopse} \nRoteirista: ${element.nomeRoteirista} \nDesenhista: ${element.nomeArtista} \nGenero:${arrayObjetosEmString} \nConcluido: ${element.concluido} \nAno de Lançamento:${element.anoLancamento} \nAno de Encerramento: ${element.anoEncerramento} \nNumero de Volumes Compilados:${element.numeroVolumes} \nEditora Original: ${element.editoraOriginal} \nRevista Publicada: ${element.revistaPublicada} \nPublicado no Brasil: ${element.publicacaoBrasil} \nEditora Brasileira: ${element.editoraBrasileira}`)
     
 });
-
-
 
 
