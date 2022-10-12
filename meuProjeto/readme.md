@@ -34,3 +34,8 @@
 3- na main, foram criadas duas divisões: a primeira com um form contendo uym input e um botão; a segunda com sections para cada item do array, sendo estes escritos em forma de lista não ordenada
 4- foram adicionados links para artigos de cada item da lista em seus nomes
 5- foi adicionado uma propriedade de imagem para cada objeto no JS
+
+## **Semana 8**
+1- estilzação do header
+2- estilização do footer
+3- estilização da lista de itens

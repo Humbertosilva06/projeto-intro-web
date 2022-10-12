@@ -105,21 +105,21 @@ funcaoDevolveRelatorioEmString(manga1)
 
 // semana 6-2
 
-let pesquisa = prompt("qual manga").toUpperCase()
+// let pesquisa = prompt("qual manga").toUpperCase()
 
-let retornaObjetoOuAlert = (array, string) => {
-    let objetoARetronar = ""
-    for (i in array) {
-        if (array[i].titulo.toUpperCase().includes(string) || array[i].nomeOriginal.toUpperCase().includes(string) === string) {
-            objetoARetronar = console.log(array[i])
-            return objetoARetronar
+// let retornaObjetoOuAlert = (array, string) => {
+//     let objetoARetronar = ""
+//     for (i in array) {
+//         if (array[i].titulo.toUpperCase().includes(string) || array[i].nomeOriginal.toUpperCase().includes(string) === string) {
+//             objetoARetronar = console.log(array[i])
+//             return objetoARetronar
 
-        }
-    }
-    if (objetoARetronar.includes(string) !== string) {
-        return alert("nenhum item encontrado")
-    }
-}
+//         }
+//     }
+//     if (objetoARetronar.includes(string) !== string) {
+//         return alert("nenhum item encontrado")
+//     }
+// }
 
-retornaObjetoOuAlert(arrayMangas,pesquisa)
+// retornaObjetoOuAlert(arrayMangas,pesquisa)
 
