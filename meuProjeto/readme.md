@@ -22,3 +22,8 @@
 1- nos relatorios, usando o forEach a propriedade genero dos objetos que tinha como valor um array de strings, foi concatenada numa variavel como todos os elementos em uma unica string.
 
 2- os relatorios com os dados dos objetos foi reescrito usando o forEach tbm, usando apenas um console log para todos os items
+
+## **Semana 6**
+1- criada uma função que recebe um objeto como parametro e retorna um relatorio no console.log
+
+2- criada uma função que recebe um array de objetos e uma string, e se algum dos nomes dos objetos for igual a string(que nesse caso  fiz recebendo por um prompt), ela retorna o objeto, senão retorna um alert com a mensagem "nenhum item encontrado"

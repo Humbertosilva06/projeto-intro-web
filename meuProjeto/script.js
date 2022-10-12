@@ -91,4 +91,32 @@ arrayMangas.forEach(element => {
     
 });
 
+//semana 6-1
+
+
+const funcaoDevolveRelatorioEmString = (objeto) => {
+    console.log(`Titulo: ${objeto.titulo.toUpperCase()} \nTitulo Original: ${objeto.nomeOriginal.toUpperCase()} \nSinopse: ${objeto.sinopse} \nRoteirista: ${objeto.nomeRoteirista} \nDesenhista: ${objeto.nomeArtista} \nGenero:${objeto.genero} \nConcluido: ${objeto.concluido} \nAno de Lançamento:${objeto.anoLancamento} \nAno de Encerramento: ${objeto.anoEncerramento} \nNumero de Volumes Compilados:${objeto.numeroVolumes} \nEditora Original: ${objeto.editoraOriginal} \nRevista Publicada: ${objeto.revistaPublicada} \nPublicado no Brasil: ${objeto.publicacaoBrasil} \nEditora Brasileira: ${objeto.editoraBrasileira}`)
+
+}
+funcaoDevolveRelatorioEmString(manga1)
+
+//semana 6-2
+
+let pesquisa = prompt("qual manga").toUpperCase()
+
+let retornaObjetoOuAlert = (array, string) => {
+    let objetoARetronar = ""
+    for (i in array) {
+        if (array[i].titulo.toUpperCase().includes(string) || array[i].nomeOriginal.toUpperCase().includes(string) === string) {
+            objetoARetronar = console.log(array[i])
+            return objetoARetronar
+
+        }
+    }
+    if (objetoARetronar.includes(string) !== string) {
+        return alert("nenhum item encontrado")
+    }
+}
+
+retornaObjetoOuAlert(arrayMangas,pesquisa)
 
