@@ -1,6 +1,7 @@
 
 
 const manga1 = {
+    imagem: "imagens/Naruto capa.webp", 
     titulo: "Naruto",
     nomeOriginal: "Naruto\n",
     sinopse: "Doze anos antes da história começar, a Vila oculta da folha foi atacada por um espirito conhecido  como Raposa de nove caudas. A fim de interromper a destruição e inumeras mortes causadas pelo ataque, o líder da vila, conhecido como Quarto Hokage, sacrificou sua prórpia vida para selar o demônio raposa dentro do recém-nascido Naruto Uzumaki.\n\n12 anos após os acontecimentos, o agora jovem ninja Naruto, que viveu toda sua infancia sendo marginalizado e ostracizado pela vila, a qual ainda ve o garoto como o proprio demonio raposa, busca realizar seu maior sonho: Se tornar o novo Hokage, ganhando assim o reconhecimento de todos os habitantes da Vila da folha \n",
@@ -18,6 +19,7 @@ const manga1 = {
 }
 
 const manga2 = {
+    image: "imagens/Real capa.jfif",
     titulo: "Real",
     nomeOriginal: "Real\n",
     sinopse: "A história gira em torno de três adolescentes: Nomiya Tomomi, um rapaz que abandonou o ensino médio, Togawa Kiyoharu, um ex-corredor que agora joga basquete sobre cadeira de rodas e Takahashi Hisanobu, um popular líder do time de basquetebol da escola que agora está paraplegico em função de um acidente. \n\nReal apresenta um elenco de personagens que se veem marginalizados pela sociedade, mas todos unidos por uma característica comum: o desejo de jogar basquete, mesmo sem lugar para jogar. Nomiya, tendo abandonado o ensino médio, não tem expectativa de futuro. Togawa, tendo uma personalidade difícil, encontra-se constantemente brigando com seus próprios companheiros de equipe. Takahashi, antes um popular líder de equipe, agora se vê incapaz de se mover do peito para baixo.\n\nReal também lida com a realidade das deficiências físicas e a inferioridade psicológica contra a qual os personagens lutam. Os personagens rompem suas próprias barreiras psicológicas pouco a pouco. \n",
@@ -34,6 +36,7 @@ const manga2 = {
     editoraBrasileira: "panini"
 }
 const manga3 = {
+    imagem: "imagens/Frieren capa.jfif",
     titulo: "Frieren e a jornada para o além",
     nomeOriginal: "Sousou no Frieren\n",
     sinopse: "A aventura acabou mas a jornada continua para uma jovem elfa que apenas começou a aprender o que é a vida\n\nA elfa Frieren e seus companheiros derrotaram o Rei demonio e trouxeram paz para sua terra. após o termino da jornada, eles se separam e vão viver suas pacatas vidas, com a promessa de um dia se reencontrarem.\n\n Porém, sendo uma elfa, Frieren é praticamente imortal e viverá centenas de anos a mais que seu antigo grupo . Como ela irá lidar com a mortalidade de seus amigos? Poderá Frieren encontrar satisfação em sua vida e aprender a entender o que a vida significa para os humanos ao seu redor? Uma nova jornada se inicia para encontrar as respostas\n",
@@ -45,7 +48,7 @@ const manga3 = {
     anoEncerramento: "em andamento",
     numeroVolumes: 9,
     editoraOriginal: "Shogagukan",
-    revistaPublicada: "Weekly shonen jump",
+    revistaPublicada: "Shuukan shonen sunday",
     publicacaoBrasil: true,
     editoraBrasileira: "Panini"
 }
@@ -100,7 +103,7 @@ const funcaoDevolveRelatorioEmString = (objeto) => {
 }
 funcaoDevolveRelatorioEmString(manga1)
 
-//semana 6-2
+// semana 6-2
 
 let pesquisa = prompt("qual manga").toUpperCase()
 

@@ -27,3 +27,10 @@
 1- criada uma função que recebe um objeto como parametro e retorna um relatorio no console.log
 
 2- criada uma função que recebe um array de objetos e uma string, e se algum dos nomes dos objetos for igual a string(que nesse caso  fiz recebendo por um prompt), ela retorna o objeto, senão retorna um alert com a mensagem "nenhum item encontrado"
+
+## **semana 7**
+1- criada pagina html
+2-criado um cabeçalho (header), uma seção principal (main) e um rodapé (footer)
+3- na main, foram criadas duas divisões: a primeira com um form contendo uym input e um botão; a segunda com sections para cada item do array, sendo estes escritos em forma de lista não ordenada
+4- foram adicionados links para artigos de cada item da lista em seus nomes
+5- foi adicionado uma propriedade de imagem para cada objeto no JS
