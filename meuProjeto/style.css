@@ -14,8 +14,8 @@ header{
 
 main{
     background-color: wheat;
-    display: flex;
-    flex-direction: column;
+       
+    
 }
 form{
     padding: 2vh;
@@ -30,22 +30,112 @@ footer{
 }
 
 
-.manga{
-    background-color: orange;
-    width: 50vw;
-    margin: 5vh 25vw;    
-}
 
-.imagem{
-    height: 30vh;     
-     
-}
 
-ul{
-    margin-inline-start: 15vw ;
-    margin-block-start: -31vh;
-    padding: 2vh;
+
+
+
+
+.listaDeMangas{
+    margin: 0 20vw;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 70%;
+    gap: 1vw ;
+   
+    
     
 }
 
+.manga{
+    background-color: orange;
+    width: 100%;  
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 2vh;
+     
+       
+}
+
+.imagem{
+    height: 30vh;
+    grid-column: 1/2 ;
+  
+    
+}
+
+ul{
+width: 100%;
+    grid-column: 2/3;
+   
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 800px ) {
+
+    form{
+        display: flex;
+        justify-content: center
+        }
+        
+
+    #pesquisa{
+        width: 50vw;
+    }
+
+    .manga{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listaDeMangas{
+        width: 100vw;
+        margin: 010vw 10vw;
+    }
+
+   
+    
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    *{margin: 0;
+        padding: 0;
+    }
+   
+
+    .listaDeMangas{
+       width: 100%;
+        margin: 0;
+        gap: 2vh;
+        
+        
+    }
+
+    .manga{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 94vw;
+        
+    }
+
+    ul{
+
+        display: flex;
+        flex-direction: column;
+        margin: 2vh 1vw;
+        flex-wrap: wrap;
+    }
+
+    li{
+        list-style: none;
+    }
+    
+    .imagem{
+        height: 50vh;
+        width: 80vw;
+        align-self: center;
+        
+    }
+}
 
