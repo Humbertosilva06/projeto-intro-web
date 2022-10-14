@@ -39,3 +39,6 @@
 1- estilzação do header
 2- estilização do footer
 3- estilização da lista de itens
+
+## **Semana 9**
+1- apenas deixei a lista dos itens como display: flex
