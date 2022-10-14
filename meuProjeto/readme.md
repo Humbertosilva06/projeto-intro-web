@@ -42,3 +42,7 @@
 
 ## **Semana 9**
 1- apenas deixei a lista dos itens como display: flex
+
+## **Semana 10**
+1 - mudei de display flex para display grid
+2- site responsivo para computadores, celulares e tablets
