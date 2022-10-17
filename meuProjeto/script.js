@@ -1,7 +1,8 @@
 
 
 const manga1 = {
-    imagem: "imagens/Naruto capa.webp", 
+    imagem: "imagens/NarutoCapa.webp", 
+    link: "https://pt.wikipedia.org/wiki/Naruto",
     titulo: "Naruto",
     nomeOriginal: "Naruto\n",
     sinopse: "Doze anos antes da história começar, a Vila oculta da folha foi atacada por um espirito conhecido  como Raposa de nove caudas. A fim de interromper a destruição e inumeras mortes causadas pelo ataque, o líder da vila, conhecido como Quarto Hokage, sacrificou sua prórpia vida para selar o demônio raposa dentro do recém-nascido Naruto Uzumaki.\n\n12 anos após os acontecimentos, o agora jovem ninja Naruto, que viveu toda sua infancia sendo marginalizado e ostracizado pela vila, a qual ainda ve o garoto como o proprio demonio raposa, busca realizar seu maior sonho: Se tornar o novo Hokage, ganhando assim o reconhecimento de todos os habitantes da Vila da folha \n",
@@ -19,7 +20,8 @@ const manga1 = {
 }
 
 const manga2 = {
-    image: "imagens/Real capa.jfif",
+    imagem:"imagens/RealCapa.jfif",
+    link: "https://pt.wikipedia.org/wiki/Real_(mang%C3%A1)",
     titulo: "Real",
     nomeOriginal: "Real\n",
     sinopse: "A história gira em torno de três adolescentes: Nomiya Tomomi, um rapaz que abandonou o ensino médio, Togawa Kiyoharu, um ex-corredor que agora joga basquete sobre cadeira de rodas e Takahashi Hisanobu, um popular líder do time de basquetebol da escola que agora está paraplegico em função de um acidente. \n\nReal apresenta um elenco de personagens que se veem marginalizados pela sociedade, mas todos unidos por uma característica comum: o desejo de jogar basquete, mesmo sem lugar para jogar. Nomiya, tendo abandonado o ensino médio, não tem expectativa de futuro. Togawa, tendo uma personalidade difícil, encontra-se constantemente brigando com seus próprios companheiros de equipe. Takahashi, antes um popular líder de equipe, agora se vê incapaz de se mover do peito para baixo.\n\nReal também lida com a realidade das deficiências físicas e a inferioridade psicológica contra a qual os personagens lutam. Os personagens rompem suas próprias barreiras psicológicas pouco a pouco. \n",
@@ -36,7 +38,8 @@ const manga2 = {
     editoraBrasileira: "panini"
 }
 const manga3 = {
-    imagem: "imagens/Frieren capa.jfif",
+    link: "https://en.wikipedia.org/wiki/Frieren",
+    imagem: "imagens/FrierenCapa.jfif",
     titulo: "Frieren e a jornada para o além",
     nomeOriginal: "Sousou no Frieren\n",
     sinopse: "A aventura acabou mas a jornada continua para uma jovem elfa que apenas começou a aprender o que é a vida\n\nA elfa Frieren e seus companheiros derrotaram o Rei demonio e trouxeram paz para sua terra. após o termino da jornada, eles se separam e vão viver suas pacatas vidas, com a promessa de um dia se reencontrarem.\n\n Porém, sendo uma elfa, Frieren é praticamente imortal e viverá centenas de anos a mais que seu antigo grupo . Como ela irá lidar com a mortalidade de seus amigos? Poderá Frieren encontrar satisfação em sua vida e aprender a entender o que a vida significa para os humanos ao seu redor? Uma nova jornada se inicia para encontrar as respostas\n",
@@ -123,3 +126,40 @@ funcaoDevolveRelatorioEmString(manga1)
 
 // retornaObjetoOuAlert(arrayMangas,pesquisa)
 
+//semana 11
+
+
+const main = document.querySelector("main")
+main.setAttribute ("id", "container")
+const listaDeMangas = document.createElement("section")
+main.insertAdjacentElement("beforeend",listaDeMangas)
+listaDeMangas.setAttribute("id", "listaDeMangas")
+listaDeMangas.setAttribute("class","listaDeMangas")
+const pegaLista = document.getElementById("listaDeMangas")
+
+for (let i in arrayMangas){//criação da lista através do dom
+    listaDeMangas.innerHTML+=`<section class = manga id = manga> 
+    <img class = imagem id = imagem src = ${arrayMangas[i].imagem}>
+    <ul>
+    <li><a href= ${arrayMangas[i].link} target="_blank"> Titulo: ${arrayMangas[i].titulo}</a></li>
+    <li>Nome Original: ${arrayMangas[i].nomeOriginal}</li>
+    <li>Sinopse: ${arrayMangas[i].sinopse}</li>
+    <li>Roteirista: ${arrayMangas[i].nomeRoteirista}</li>
+    <li>Desenhista: ${arrayMangas[i].nomeArtista}</li>
+    <li>Genero: ${arrayMangas[i].genero}</li>
+    <li>Concluido: ${arrayMangas[i].concluido}</li>
+    <li>Ano de lançamento: ${arrayMangas[i].anoLancamento}</li>
+    <li>Ano de encerramento: ${arrayMangas[i].anoEncerramento}</li>
+    <li>numero de volumes: ${arrayMangas[i].numeroVolumes}</li>
+    <li>Editora Original: ${arrayMangas[i].editoraOriginal}</li>
+    <li>Revista Publicada: ${arrayMangas[i].revistaPublicada}</li>
+    <li>Publicado no Brasil: ${arrayMangas[i].publicacaoBrasil}</li>
+    <li>Editora brasileira:${arrayMangas[i].editoraBrasileira}</li>
+    </ul>
+    
+    </section>`
+}
+
+
+
+ 
