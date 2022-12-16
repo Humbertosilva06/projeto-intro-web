@@ -46,3 +46,6 @@
 ## **Semana 10**
 1 - mudei de display flex para display grid
 2- site responsivo para computadores, celulares e tablets
+
+## **Semana 11**
+1- comemtei a lista de itens do HTML e criei no JS através da manipulação do DOM
